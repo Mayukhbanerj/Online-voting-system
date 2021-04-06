@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nomination Panel</title>
+
+  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+    <style>
+      .headerFont{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 24px;
+      }
+
+      .subFont{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        
+      }
+      
+      .specialHead{
+        font-family: 'Oswald', sans-serif;
+      }
+
+      .normalFont{
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+	
+	<div class="container">
+  	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse
+    " role="navigation">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-header">
+          <a href="cpanel.php" class="navbar-brand headerFont text-lg"><strong>eVoting</strong></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="example-nav-collapse">
+          <ul class="nav navbar-nav">
+          </ul>
+          
+
+          <button type="submit" class="btn btn-success navbar-right navbar-btn"><span class="normalFont"><strong>Admin Panel</strong></span></button>
+        </div>
+
+      </div> 
+    </nav>
+
+    <div class="container" style="padding:100px;">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="images/modi.jpeg" class="img img-thumbnail" style="width:200px;height:200px;" alt="">
+          <h4 class="normalFont text-center">Narendra Modi</h4>
+          <h5 class="normalFont text-center">Modi, a leader of the Bharatiya Janata Party, was the Chief Minister of Gujarat from 2001 to 2014 and is the Member of Parliament from Varanasi.</h5>
+          <hr>
+          <ul class="normalFont text-left">
+            <li>Born: September 17, 1950 (age 64), Vadnagar</li>
+            <li>Spouse: Jashodaben Modi</li>
+            <li>Education: Gujarat University (1983), University of Delhi (1978)</li>
+            <li>Parents: Heeraben Modi, Damodardas Mulchand Modi</li>
+            <li>Awards: CNN-IBN Indian of the Year</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/rahul.jpeg" class="img img-thumbnail" style="width:200px;height:200px;" alt="">
+          <h4 class="normalFont text-center">Rahul Gandhi</h4>
+          <h5 class="normalFont text-center">Rahul Gandhi; is the Vice-President of the Indian National Congress party and the Chairperson of the Indian Youth Congress and the National Students Union of India.
+            <hr>
+            <ul class="text-left">
+              <li>Born: June 19, 1970 (age 44), New Delhi</li>
+              <li>Full name: Rahul Gandhi</li>
+              <li>Parents: Sonia Gandhi, Rajiv Gandhi</li>
+              <li>Siblings: Priyanka Gandhi</li>
+              <li>Education: Trinity College, Cambridge (1994–1995)</li>
+              <li>Awards: CNN-IBN Indian of the Year in Politics</li>
+            </ul>
+            
+          </h5>
+        </div>
+        <div class="col-sm-3">
+          <img src="data:image/jpeg;base64,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" class="img img-thumbnail" style="width:200px;height:200px;" alt="">
+          <h4 class="normalFont text-center">Arvind Kejriwal</h4>
+          <h5 class="text-center normalFont">Arvind Kejriwal is an Indian politician, who is the current and 7th Chief Minister of Delh.</h5>
+          <hr>
+          <ul class="text-left">
+            <li>Born: 16 August 1968 (age 52), Siwani</li>
+            <li>Arvind Kejriwal (born 16 August 1968) is an Indian politician and a former bureaucrat who is the current and 7th Chief Minister of Delhi since February 2015. He was also the Chief Minister of Delhi from December 2013 to February 2014, stepping down after 49 days of assuming power. Currently, he is the national convener of the Aam Aadmi Party, which won the 2015 Delhi Assembly elections with a historic majority, obtaining 67 out of 70 assembly seats. In 2006, Kejriwal was awarded the Ramon Magsaysay Award for Emergent Leadership in recognition of his involvement in the grassroots level movement Parivartan using right to information legislation in a campaign against government corruption. The same year, after resigning from Government service, he donated his Magsaysay award money as a corpus fund to found the Public Cause Research Foundation, a non-governmental organisation (NGO).
+
+              Before joining politics, Kejriwal had worked in the Indian Revenue Service as a Joint Commissioner of Income Tax in New Delhi. Kejriwal is a graduate in Mechanical engineering from Indian Institute of Technology (IIT) Kharagpur. In 2012, he launched the Aam Aadmi Party, which won in the 2013 Delhi Legislative Assembly election. Following the election, he took office as the Chief Minister of Delhi on 28 December 2013. He resigned 49 days later, on 14 February 2014, stating he did so because of his minority government's inability to pass his proposed anti-corruption legislation due to a lack of support from other political parties. On 14 February 2015, he was sworn in as Chief Minister for a second term after his party's victory in the Delhi Legislative Assembly election</li>
+           
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mamata_2015.jpg/330px-Mamata_2015.jpg" class="img img-thumbnail" style="width:200px;height:200px;" alt="">
+          <h4 class="normalFont text-center">Mamata Banerjee</h4>
+          <h5 class="normalFont text-center">Mamata Banerjee is an Indian politician.</h5>
+          <hr>
+          <ul class="text-left normalFont">
+            <li>Born: Jan 5, 1955 (age 66), Kolkata</li>
+            <li>Mamata Banerjee (Mamata Bandhopadhyaya) born 5 January 1955 is an Indian politician who is serving as the 8th and current Chief Minister of West Bengal since 2011, the first woman to hold the office. She founded the All India Trinamool Congress (AITC or TMC) party in 1998 after separating from the Indian National Congress, and became its first chairperson. She is often referred to as Didi (meaning elder sister in Bengali) by her followers and as Pishi (meaning paternal aunt in Bengali) by many of her critics.
+
+              Banerjee previously served twice as Minister of Railways, the first woman to do so.[8] She is also the first female Minister of Coal, and Minister of Human Resource Development, Youth Affairs and Sports, Women and Child Development in the cabinet of the Indian government. She rose to prominence after opposing the erstwhile land acquisition policies for industrialisation of the Communist government in West Bengal for Special Economic Zones at the cost of agriculturalists and farmers at Singur. In 2011 Banerjee pulled off a landslide victory for the AITC alliance in West Bengal, defeating the 34-year-old Communist Party of India (Marxist)-led Left Front government, the world's longest-serving democratically elected communist government, in the process</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
